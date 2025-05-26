@@ -1,4 +1,4 @@
-## 2. Metodologia & Premissas
+## 1. Metodologia & Premissas
 
 - **Divisão DEV / OOT**  
   Separação tempo-estratificada por safra para simular produção vs. validação real:  
@@ -21,7 +21,7 @@
 
 ---
 
-## 3. Modelagem
+## 2. Modelagem
 
 **Notebook:** `lgbm.ipynb`  
 
@@ -33,7 +33,7 @@
   - Regularização (`reg_alpha`, `reg_lambda`)  
 
 
-## 4. Avaliação de Performance
+## 3. Avaliação de Performance
 
 **Notebook:** `lgbm.ipynb`  
 
@@ -53,7 +53,7 @@
 
 ---
 
-## 5. Manutenibilidade & Boas Práticas
+## 4. Manutenibilidade & Boas Práticas
 
 - **Controle de versão** com Git e arquivo `.gitignore` para artefatos transitórios.  
 - **Dependências** listadas em `requirements.txt`.  
@@ -61,7 +61,7 @@
 
 ---
 
-## 6. Visualizações
+## 5. Visualizações
 
 - **A maioria em arquivos .xlsx ou nos próprios notebooks**  
   - Barplots de Feature Importance (gain %)  
